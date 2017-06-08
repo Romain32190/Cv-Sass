@@ -1,0 +1,90 @@
+body{
+	font-size : 1,2em;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    font-family: 'Happy Monkey';
+    background-color: $primary_color;
+}
+
+.titre{
+	text-align : center;
+	color : #6495ED;
+}
+
+h3{
+	margin-left : 1em;
+	color : #6495ED;
+}
+
+nav {
+	text-align : center;
+a{
+	color : #6495ED;
+	padding: 4em;
+	font-size : 1,2em;
+}
+}
+
+
+
+.competences{
+	margin-top : 3em;
+}
+
+i{
+	padding-right: 1em;
+}
+
+p{
+	margin-left : 1em;
+}
+
+.formations{
+	margin-top : 3em;
+}
+
+.experiences{
+	margin-top : 3em;
+}		
+
+img{
+	border : solid;
+	float : right;
+	width : 10em;
+	height : 9em;
+	margin-top : 1em;
+}
+
+footer{
+	background: #6495ED;
+	height : 4em;
+}
+
+
+.mailto{
+	text-decoration: none;
+	color : white;
+	margin-left : 1em;
+	margin-top : 5px;
+}
+
+
+.github{
+	text-decoration: none;
+	color : white;
+	font-size : 1em;
+	float : right;
+
+}   
+
+.linkedin{
+	text-decoration: none;
+	color : white;
+	font-size : 1em;
+	float : right;
+}
+
+li{
+	margin-right : 2em;
+}
