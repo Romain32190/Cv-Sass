@@ -1,35 +1,52 @@
 body{
-	font-size : 1,2em;
-	margin-left: auto;
-    margin-right: auto;
-    width: 50em;
-    font-family: 'Happy Monkey';
+	font-family: 'Happy Monkey';
     background-color: $primary_color;
+    margin: auto;
+    font-size : 1em;
 }
 
 .titre{
 	text-align : center;
-	color : #6495ED;
+	color : #2E8B57;
 }
 
-h3{
-	margin-left : 1em;
-	color : #6495ED;
+h2{
+	color : #2E8B57;
 }
 
 nav {
 	text-align : center;
+	margin-bottom : 4em;
+	margin-top : 4em;
 a{
-	color : #6495ED;
-	padding: 4em;
-	font-size : 1,2em;
+	color : #2E8B57;
+	padding: 5em;
+	font-size : 1.2em;
 }
 }
 
 
+.outils{
+	padding-left : 12.5em;
+}
 
-.competences{
+.html{
+	margin-left : 12.5em;
+}
+
+.js{
+}
+
+.code{
+	display : inline-flex;
+	margin-top : 1em;
+}
+
+section, header{
 	margin-top : 3em;
+	margin: auto;
+	width : 60em;
+
 }
 
 i{
@@ -38,27 +55,22 @@ i{
 
 p{
 	margin-left : 1em;
-}
+}	
 
-.formations{
-	margin-top : 3em;
-}
-
-.experiences{
-	margin-top : 3em;
-}		
-
-img{
+.moi{
 	border : solid;
 	float : right;
-	width : 10em;
+	width : 9em;
 	height : 9em;
-	margin-top : 1em;
 }
 
+
 footer{
-	background: #6495ED;
-	height : 4em;
+	background: #2E8B57;
+	padding-top:1em;
+	height:2em;
+	bottom:0;
+	width : 100%;
 }
 
 
@@ -85,6 +97,130 @@ footer{
 	float : right;
 }
 
-li{
-	margin-right : 2em;
+.facebook{
+	text-decoration: none;
+	color : white;
+	font-size : 1em;
+	float : right;
+
+}
+
+.twitter{
+	text-decoration: none;
+	color : white;
+	font-size : 1em;
+	float : right;
+
+}
+
+#node{
+	width: 2em;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-right: 0.5em;
+}
+
+span{
+	font-size: 20px;
+}
+
+#express{
+	width: 2em;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-right: 0.5em;
+
+}
+	
+
+#bootstrap{
+	width: 2em;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-right: 0.5em;
+}
+
+#materialize{
+	width: 2em;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-right: 0.5em;
+}
+
+#github{
+	width: 2em;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-right: 0.5em;
+
+}
+
+#kanban{
+	width: 2em;
+	vertical-align: middle;
+	padding-left: 1em;
+	padding-right: 0.5em;
+
+}
+
+
+
+h4{
+	font-size : 1.2em;	
+	color :  #2E8B57;
+	text-decoration : underline;
+}
+
+// .plomberie{
+// 	margin-left : 17em;
+// 	margin-top : 1em;
+// 	margin-bottom : 3em;
+// }
+
+// .formations	 {
+// 	margin-bottom : 2em;
+// 	margin-top : 1em;
+// }
+
+.experiences{
+	margin-bottom : 2em;
+	margin-top : 1em;
+
+	}
+
+.column{
+	display: flex;
+}
+
+.column_left
+{
+width: 150em;
+margin-bottom : 3em;
+
+}
+
+.column_right
+{
+width: 80em;
+}
+
+.column1{
+	display: flex;
+}
+
+#formation
+{
+width: 300em;
+
+}
+
+.plomberie
+{
+width: 570em;
+}
+
+.scrollup {
+    float : right;
+    width : 3em;
+    height : 3em;
 }
